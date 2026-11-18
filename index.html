@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Marvin</title>
+<meta name="description" content="Marvin, a personal assistant one person built for their own use.">
+<style>
+  :root { color-scheme: light dark; --text: #1f2328; --muted: #59636e; --bg: #ffffff; --link: #0969da; }
+  @media (prefers-color-scheme: dark) {
+    :root { --text: #e6edf3; --muted: #9198a1; --bg: #0d1117; --link: #4493f8; }
+  }
+  body { margin: 0; background: var(--bg); color: var(--text);
+         font: 17px/1.6 system-ui, -apple-system, "Segoe UI", sans-serif; }
+  main { max-width: 40rem; margin: 0 auto; padding: 3rem 1rem; }
+  h1 { font-size: 2rem; margin: 0 0 1rem; }
+  h2 { font-size: 1.15rem; margin: 2rem 0 0.5rem; }
+  a { color: var(--link); }
+  footer { margin-top: 3rem; color: var(--muted); font-size: 0.95rem; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Marvin</h1>
+  <p>Marvin is a personal assistant that one person built for their own use. It isn't a product or a
+    service. No one else can use it or sign in to it.</p>
+
+  <h2>What it does</h2>
+  <ul>
+    <li>It reads its owner's Gmail, to sort and summarise new mail.</li>
+    <li>It reads its owner's Google Calendar events, and adds or changes events when its owner asks.</li>
+    <li>It sends an e-mail from its owner's account only after the owner has approved that exact message.</li>
+  </ul>
+  <p>It runs on its owner's own server and reports to its owner through a private Telegram bot.</p>
+
+  <h2>Privacy</h2>
+  <p>How Marvin handles Google data is set out in its <a href="privacy.html">privacy policy</a>.</p>
+
+  <footer>
+    <p><a href="privacy.html">Privacy policy</a> · Contact: <a href="https://github.com/scp1881">github.com/scp1881</a></p>
+  </footer>
+</main>
+</body>
+</html>

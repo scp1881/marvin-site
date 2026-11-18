@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Marvin privacy policy</title>
+<meta name="description" content="How Marvin, a single-user personal assistant, handles Google data.">
+<style>
+  :root { color-scheme: light dark; --text: #1f2328; --muted: #59636e; --bg: #ffffff; --link: #0969da; }
+  @media (prefers-color-scheme: dark) {
+    :root { --text: #e6edf3; --muted: #9198a1; --bg: #0d1117; --link: #4493f8; }
+  }
+  body { margin: 0; background: var(--bg); color: var(--text);
+         font: 17px/1.6 system-ui, -apple-system, "Segoe UI", sans-serif; }
+  main { max-width: 40rem; margin: 0 auto; padding: 3rem 1rem; }
+  h1 { font-size: 2rem; margin: 0 0 0.25rem; }
+  h2 { font-size: 1.15rem; margin: 2rem 0 0.5rem; }
+  a { color: var(--link); }
+  .updated, footer { color: var(--muted); font-size: 0.95rem; }
+  footer { margin-top: 3rem; }
+  code { font-size: 0.9em; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Marvin privacy policy</h1>
+  <p class="updated">Last changed 18 November 2026</p>
+
+  <h2>Who this covers</h2>
+  <p>Marvin has one user: the person who built it, its owner. It isn't offered to anyone else, and no one
+    else can sign in to it. This page explains what Marvin does with its owner's Google data.</p>
+
+  <h2>What Marvin can access</h2>
+  <ul>
+    <li><strong>Gmail, read only</strong> (<code>gmail.readonly</code>): to read and sort the owner's mail.
+      This permission can't send, delete or change any mail.</li>
+    <li><strong>Gmail, send only</strong> (<code>gmail.send</code>): to send messages the owner has
+      approved. This permission can't read any mail. It's held by a separate program from the one that
+      reads mail.</li>
+    <li><strong>Google Calendar events</strong> (<code>calendar.events</code>): to read the owner's events,
+      and to add or change events when the owner asks.</li>
+  </ul>
+
+  <h2>How it's used</h2>
+  <p>Only to give the owner summaries, reminders and drafts, and to carry out what the owner approves.
+    It isn't used for advertising, isn't sold, and isn't used to build a profile of anyone.</p>
+
+  <h2>Who else handles it</h2>
+  <p>Marvin is run with these services, and data passes through them only to do the jobs above:</p>
+  <ul>
+    <li><strong>Anthropic</strong>: parts of a message may be sent to Anthropic's Claude model, through
+      the owner's own Claude subscription, to summarise it or draft a reply. Anthropic handles it under its
+      own terms.</li>
+    <li><strong>Telegram</strong>: summaries and drafts reach the owner through a private Telegram bot.</li>
+    <li><strong>Oracle Cloud</strong>: hosts the owner's server, where Marvin runs.</li>
+    <li><strong>GitHub</strong>: holds the owner's notes, in a private repository.</li>
+  </ul>
+  <p>No one else receives it.</p>
+
+  <h2>Where it's kept, and for how long</h2>
+  <p>On the owner's own server and in the owner's private notes, only as long as the owner wants it.
+    Records of conversations with Marvin are deleted after 90 days unless the owner keeps one. Google's
+    sign-in tokens are stored encrypted on the server.</p>
+
+  <h2>Withdrawing access</h2>
+  <p>Marvin's access can be removed at any time from the Google Account's
+    <a href="https://myaccount.google.com/connections">Third-party connections</a> page: choose Marvin,
+    then <strong>Delete all connections</strong>.</p>
+
+  <h2>Changes</h2>
+  <p>Any change to this policy is shown by the date at the top of this page.</p>
+
+  <footer>
+    <p><a href="./">About Marvin</a> · Contact: <a href="https://github.com/scp1881">github.com/scp1881</a></p>
+  </footer>
+</main>
+</body>
+</html>
